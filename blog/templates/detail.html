@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+
+{%block conetent %}
+
 <h1>{{post.title}}</h1>
 <small>By: {{post.author}}</small><br/>
 <hr>
@@ -6,3 +10,5 @@
 
 <br/><br/>
 <a href="{% url 'blog' %}">Back</a>
+
+{% endblock %}

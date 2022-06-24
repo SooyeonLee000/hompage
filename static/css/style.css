@@ -146,7 +146,7 @@ h6 { font-size: 16px; }
     width: 50%;
     height: 100%;
     z-index: -1;
-    background-color: #000;
+    background-color: #F2D7D9;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -188,7 +188,7 @@ h6 { font-size: 16px; }
     top: 0;
     width: 1px;
     height: 100%;
-    background-color: #999999;
+    background-color: #F2D7D9;
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     -o-transform: translateY(-100%);
@@ -239,7 +239,7 @@ body.dark .loader_line:after{
     top: 0;
     width: 1px;
     height: 100%;
-    background-color: #ddd;
+    background-color: #F2D7D9;
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     -o-transform: translateY(-100%);
@@ -320,7 +320,7 @@ body.dark .loader_line:after{
 	height: auto;
 	float: left;
 	clear: both;
-	background-color: #fff;
+	background-color: #F2D7D9;
 	padding: 15px 0px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.08);
 }
@@ -345,7 +345,7 @@ body.dark .loader_line:after{
 .my_trigger .hamburger .hamburger-inner::before,
 .my_trigger .hamburger .hamburger-inner::after,
 .my_trigger .hamburger .hamburger-inner{
-	background-color: #000;
+	background-color: #F2D7D9;
 	width: 30px;
 	height: 2px;
 	
@@ -399,8 +399,8 @@ body.dark .loader_line:after{
 	position: fixed;
 	top: 0px;
 	left: -320px;
-	background-color: #fff;
-	box-shadow: 3px 0px 5px #f5f5f5;
+	background-color: #F2D7D9;
+	box-shadow: 3px 0px 5px #fff;
 	z-index: 3;
 	
 	-webkit-transition: all .5s ease;
@@ -444,8 +444,8 @@ body.opened .edina_tm_sidebar{
 }
 .edina_tm_sidebar .menu ul li a{
 	text-decoration: none;
-	color: #1A1A1A;
-	font-size: 14px;
+	color: #354259;
+	font-size: 18px;
 	font-weight: 500;
 	display: block;
 	border-radius: 6px;
@@ -465,7 +465,7 @@ body.opened .edina_tm_sidebar{
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	background-color: #F9F9FC;
+	background-color: #fff;
 	border-radius: 6px;
 	z-index: -1;
 	
@@ -499,7 +499,7 @@ body.opened .edina_tm_sidebar{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	border-top: 1px solid #CBD3D9;
+	border-top: 1px solid #fff;;
 }
 .edina_tm_sidebar .author .inner{
 	width: 100%;
@@ -536,7 +536,7 @@ body.opened .edina_tm_sidebar{
 }
 .edina_tm_sidebar .short a{
 	text-decoration: none;
-	color: #7E7E7E;
+	color: #354259;
 	font-size: 14px;
 	
 	-webkit-transition: all .3s ease;
@@ -571,7 +571,7 @@ body.opened .edina_tm_mainpart{
 	min-height: 100vh;
 	position: relative;
 	float: left;
-	background-color: #F9F9FC;
+	background-color: #fff;
 }
 .edina_tm_hero .content{
 	position: absolute;
@@ -623,7 +623,7 @@ body.opened .edina_tm_hero .image{
 	bottom: -10px;
 	left: -10px;
 	right: -10px;
-	background-color: #e2e2e2;
+	background-color: #F2D7D9;
 	border-radius: 100%;
 }
 .edina_tm_hero .name{
@@ -780,7 +780,7 @@ body.opened .edina_tm_hero .extra{
 .progress_inner .label{
 	font-size: 16px;
 	font-weight: 600;
-	color: #1A1A1A;
+	color: #354259;
 	margin-bottom: 10px;
 	display: inline-block;
 }
@@ -789,12 +789,12 @@ body.opened .edina_tm_hero .extra{
 	min-width:100%;
 	position:relative;
 	height:16px;
-	border: 1px solid #7E7E7E;
+	border: 1px solid #354259;
 	padding: 2px;
 }
 .progress_inner .background .bar_in{
 	height:100%;
-	background:#34495E;
+	background:#F2D7D9;
 	width:0px;
 	overflow:hidden;
 }
@@ -814,8 +814,8 @@ body.opened .edina_tm_hero .extra{
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
 .edina_tm_about .rightpart{
-	width: 50%;
-	padding-left: 200px;
+	width: 100%;
+	padding-left: 100px;
 }
 .edina_tm_about .rightpart .image{
 	position: relative;
@@ -1768,7 +1768,7 @@ body.modal{
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #F9F9FC;
+	background-color: #FFEEEE;
 	padding: 100px 0px;
 }
 .edina_tm_contact .extra_info{
